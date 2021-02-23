@@ -2,7 +2,7 @@ import React from "react";
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
 import * as parkData from "./data/skateboard-parks.json";
-import "./app.css";
+import "./App.css";
 
 export const icon = new Icon({
   iconUrl: "/skateboarding.svg",
